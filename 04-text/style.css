@@ -1,0 +1,64 @@
+body {
+  background-color: #ebebeb;
+  /*background-color: #0a0a0a;*/
+  /*background-color: #fe3200;*/
+  margin: 0%;
+  padding: 0;
+  /*width: 100%;
+  height: 100vh;*/
+  cursor: none;
+  margin-bottom: 120px;
+}
+
+@font-face {
+  font-family: SpaceMono;
+  src: url("../font/SpaceMono-Regular.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url("../font/SpaceGrotesk-Regular.otf");
+  font-style: normal;
+}
+
+a {
+  font-family: "SpaceMono";
+  color: #0a0a0a;
+  text-align: center;
+  margin-inline: 120px;
+  text-decoration-line: none;
+  transform-origin: 0% 0%;
+  transition: transform 0.3s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 120px;
+ }
+
+a:hover {
+  color: #fe3200;
+}
+
+h1 {
+  font-family: "SpaceMono";
+  color: #0a0a0a;;
+  text-align: left;
+  margin-inline: 150px;
+  /*text-decoration-line: none;*/
+  transform-origin: 0% 0%;
+  /*transition: transform 0.3s;*/
+  position: absolute;
+  left: 0;
+  top: 120px;
+
+  font-size: 35px;
+  line-height: 120%
+}
+h1:hover {
+  color: #fe3200;
+}
+
+.active {
+  transform: translateX(var(--foo));
+}
