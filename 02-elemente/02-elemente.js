@@ -312,4 +312,9 @@ function scene10() {
   vertex(xx1 + size2 / 2 + size3 * 2, yy1);
   endShape();
   pop();
+
+  addEventListener("mousemove", (event) => {
+    mX = event.clientX;
+    mY = event.clientY;
+  });
 }
