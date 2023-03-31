@@ -19,12 +19,10 @@ a {
   text-align: center;
   margin-inline: 100px;
   text-decoration-line: none;
-  transform-origin: 0% 0%;
-  transition: transform 0.3s;
+  transform-origin: -100% 50%;
   position: absolute;
   left: 0;
-  top: 0;
-  cursor: none;
+  top: -1%;
 }
 
 a:hover {
