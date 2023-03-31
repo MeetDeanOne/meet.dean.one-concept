@@ -7,13 +7,12 @@ function preload() {
 
 let data = [
   " ",
-  "dean: Founded sometime in the 2015s",
-  "Art / Pictures / Bags / Shirts",
-  "To the point or not",
-  "circle around squares / triangles / parallelograms ",
-  //"Each picture signed and cataloged",
-  "brings pep into your life",
-  "see you soon at:",
+  "dean: Gegründet irgendwann 2015",
+  "Bilder / Fashion / Kosmetik / Food",
+  "Alles auf den Punkt gebrahct",
+  "Kreise um Quadrate / Dreiecke / Parallelogramme",
+  "Bringt Pep in dein Leben",
+  "Wir sehen uns bald:",
   "meet@dean.one",
 ];
 
