@@ -28,12 +28,12 @@ function draw() {
   translate(width / 2, height / 2);
   strokeWeight(8);
   noFill();
+  
   for (let i = 0; i < 200; i++) {
     let wave = tan(radians(frameCount + i * 0.5)) * 100;
     let c = map(sin(radians(frameCount * 8 + i)), -1, 1, 0, 255);
     stroke(c);
     ellipse(wave, 0, height * 0.6, height * 0.6);
-    //ellipse(wave, 0, height * 0.5, height * 0.5);
 
     push();
     let wave2 = tan(radians(frameCount + i * 0.5)) * 100;
@@ -41,7 +41,6 @@ function draw() {
     fill(d);
     noStroke();
     ellipse(wave2, 0, height * 0.4, height * 0.4);
-    //ellipse(wave2, 0, height * 0.2, height * 0.2);
     pop();
   }
 }
