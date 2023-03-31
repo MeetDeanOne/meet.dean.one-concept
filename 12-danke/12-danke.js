@@ -8,8 +8,8 @@ let white = "#FFFFFF"; //weiss
 
 let pg;
 let font;
-let size = 350;
-let size2 = 550;
+let size = 300;
+let size2 = 500;
 let size3 = 50;
 
 const colors = [darkgrey, red, blue, white, grey];
