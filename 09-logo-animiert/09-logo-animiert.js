@@ -9,8 +9,8 @@ let white = "#FFFFFF"; //weiss
 mX = -20;
 mY = -20;
 
-let size = 400;
-let size2 = 600;
+let size = 350;
+let size2 = 550;
 let size3 = 50;
 
 function setup() {
