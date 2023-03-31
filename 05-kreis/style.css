@@ -17,12 +17,12 @@ a {
   font-family: "SpaceMono";
   color: #0a0a0a;
   text-align: center;
-  margin-inline: 100px;
   text-decoration-line: none;
-  transform-origin: -100% 50%;
+  transform-origin: 0% 0%;
+  transition: transform 0.3s;
   position: absolute;
   left: 0;
-  top: -1%;
+  top: 0;
 }
 
 a:hover {
