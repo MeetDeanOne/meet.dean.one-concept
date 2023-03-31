@@ -16,10 +16,13 @@ body {
 a {
   font-family: "SpaceMono";
   color: #0a0a0a;
+  text-align: center;
   margin-inline: 100px;
   text-decoration-line: none;
+  transform-origin: -100% 50%;
   position: absolute;
-  font-size: 150px;
+  left: 0;
+  top: -1%;
 }
 
 a:hover {
